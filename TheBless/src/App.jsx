@@ -50,7 +50,7 @@ function App() {
       </a>
     </div>
 
-    <aside className="w-full sm:w-3/4 mx-auto pt-20 pb-20">
+    <aside className="w-full sm:w-3/4 mx-auto pt-20 pb-18">
       <h1 className="text-center text-4xl font-mono italic">STAGE 1:</h1>
       <h1 className="text-center text-4xl font-mono italic">MONEY GOD TEE</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 pt-10">
