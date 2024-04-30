@@ -55,19 +55,19 @@ function App() {
       <h1 className="text-center text-4xl font-mono italic">MONEY GOD TEE</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 pt-10">
           <div className="bg-white rounded-lg shadow-2xl p-4">
-            <img src="../public/diseño.png" alt="camiseta1" className="w-full h-auto"/>
+            <img src="../public/producto1.png" alt="camiseta1" className="w-full h-auto"/>
             <div className="mt-4">
               <h3 className="text-center text-lg font-bold">Titulo camiseta</h3>
             </div>  
           </div>
           <div className="bg-white rounded-lg shadow-xl p-4">
-            <img src="../public/diseño.png" alt="camiseta1" className="w-full h-auto"/>
+            <img src="../public/producto2.png" alt="camiseta1" className="w-full h-auto"/>
             <div className="mt-4">
               <h3 className="text-center text-lg font-bold">Titulo camiseta</h3>
             </div>  
           </div>
           <div className="bg-white rounded-lg shadow-xl p-4">
-            <img src="../public/diseño.png" alt="camiseta1" className="w-full h-auto"/>
+            <img src="../public/producto3.png" alt="camiseta1" className="w-full h-auto"/>
             <div className="mt-4">
               <h3 className="text-center text-lg font-bold">Titulo camiseta</h3>
             </div>  
