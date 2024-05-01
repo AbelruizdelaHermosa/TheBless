@@ -3,6 +3,5 @@
 @tailwind utilities;
 
 #root {
-  padding: 1rem;
   background-color: #fafbfd;
 }

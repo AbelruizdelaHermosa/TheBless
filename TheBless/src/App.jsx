@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'; // Cambio en la importación de Link
 import bannerThebless from '../public/CartelTHEBLESS.png';
 import logoTheBless from '../public/THEBLESSBOLSA.png';
 import './App.css'
+import Footer from './component/Footer'
 import { FaHome } from "react-icons/fa";
 
 function App() {
@@ -26,11 +27,11 @@ function App() {
 
   return (
   <div>
-    <nav className={`navbar ${stickyClass} flex h-24 w-full items-center justify-between rounded-xl bg-white px-6 shadow-sm dark:bg-gray-600`}>
+    <nav className={`navbar ${stickyClass} flex h-20 w-11/12 items-center justify-between mx-auto rounded-xl mt-4 bg-white px-10 shadow-sm dark:bg-gray-600`}>
         <Link className="flex items-center gap-2" to="/">
               <img src={logoTheBless} alt="logo" className="w-40 rounded-2xl" />
         </Link>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-10">
           <Link className="text-lg font-medium hover:underline underline-offset-4 text-white" to="/">
               Home
             </Link>
@@ -46,13 +47,15 @@ function App() {
           </div>
     </nav>
 
-    <div className="pt-20 pb-56">
+    <div className="pt-20 pb-32">
       <a className="block w-7/12 mx-auto" href="https://www.instagram.com/bythebless" target="_blank" rel="noopener noreferrer">
         <img src={bannerThebless} alt="banner" className="w-full" />
       </a>
     </div>
 
-    <aside className="sm:w-3/4 mx-auto pb-18">
+    <hr className="my-6 w-5/6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:my-8" />
+
+    <aside className="sm:w-3/4 mx-auto pb-20">
       <h1 id="titulo" className="text-center text-6xl p-8">STAGE 1</h1>
       <h1 id="titulo" className="text-center text-4xl">MONEY GOD TEE</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 pt-10 pb-10 m-8">
@@ -76,6 +79,10 @@ function App() {
           </div>
       </div>
     </aside>
+
+    <div>
+      <Footer />
+    </div>
 
   </div>
   )
