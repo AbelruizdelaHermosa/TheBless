@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom'; // Cambio en la importación de Link
-import bannerThebless from '../public/CartelTHEBLESS.png';
-import logoTheBless from '../public/THEBLESSBOLSA.png';
-import prueba1 from '../public/logo.jpg'
-import prueba2 from '../public/diseño.png'
+import bannerThebless from '/CartelTHEBLESS.png';
+import logoTheBless from '/THEBLESSBOLSA.png';
+import prueba1 from '/logo.jpg'
+import prueba2 from '/diseño.png'
 import './App.css'
 import Footer from './component/Footer'
 import ImageCarousel from './component/Banner'; // Cambio en la importación del componente
@@ -62,19 +62,19 @@ function App() {
         <h1 id="titulo" className="text-center text-4xl">MONEY GOD TEE</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 pt-10 pb-10 m-8">
             <div className="bg-neutral-100 rounded-lg shadow-2xl p-4 hover:scale-105">
-              <img src="../public/producto1.png" alt="camiseta1" className="w-full h-auto"/>
+              <img src="/producto1.png" alt="camiseta1" className="w-full h-auto"/>
               <div className="mt-4">
                 <h3 className="text-center text-lg text-gray-600">MONEY GOD TEE x BLACK</h3>
               </div>  
             </div>
             <div className="bg-neutral-100 rounded-lg shadow-xl p-4 hover:scale-110">
-              <img src="../public/producto2.png" alt="camiseta1" className="w-full h-auto"/>
+              <img src="/producto2.png" alt="camiseta1" className="w-full h-auto"/>
               <div className="mt-4">
                 <h3 className="text-center text-lg text-gray-600">MONEY GOD TEE x WHITE</h3>
               </div>  
             </div>
             <div className="bg-neutral-100 rounded-lg shadow-xl p-4 hover:scale-110">
-              <img src="../public/producto3.png" alt="camiseta1" className="w-full h-auto rounded-lg"/>
+              <img src="/producto3.png" alt="camiseta1" className="w-full h-auto rounded-lg"/>
               <div className="mt-4">
                 <h3 className="text-center text-lg text-gray-600">COMING SOON...</h3>
               </div>  
