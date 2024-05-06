@@ -10,22 +10,6 @@ import ImageCarousel from './component/Banner'; // Cambio en la importación del
 
 function App() {
 
-  const [isSticky, setSticky] = useState(false);
-
-  //navegador pegajoso
-  const stickyNav = () => {
-    window.scrollY > 150 ? setSticky(true) : setSticky(false);
-  };
-
-  useEffect(() => {
-    window.addEventListener('scroll', stickyNav);
-    return () => {
-      window.removeEventListener('scroll', stickyNav);
-    };
-  }, [])
-
-  const stickyClass = isSticky ? 'sticky-nav': '';
-
   const images = [
     bannerThebless,
     prueba1,
@@ -34,7 +18,7 @@ function App() {
 
   return (
     <div>
-      <nav className={`navbar ${stickyClass} flex h-20 md:h-24 lg:h-20 w-full md:w-11/12 items-center justify-between mx-auto rounded-xl mt-4 bg-white px-5 md:px-10 mb-10 shadow-sm dark:bg-gray-600`}>
+      <nav className="navbar flex h-20 md:h-24 lg:h-20 w-full md:w-11/12 items-center justify-between mx-auto rounded-xl mt-4 bg-white px-5 md:px-10 mb-10 shadow-sm dark:bg-gray-600">
         <Link className="flex items-center gap-2" to="/">
           <img src={logoTheBless} alt="logo" className="w-32 md:w-40 lg:w-44 rounded-2xl" />
         </Link>
