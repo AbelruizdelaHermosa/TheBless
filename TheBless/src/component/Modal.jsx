@@ -50,7 +50,7 @@ function Modal({ isOpen, onClose }) {
                 ref={modalRef}
                 tabIndex={-1}
                 onKeyDown={handleKeyDown} 
-                className='grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-3 gap-8 w-2/3'>
+                className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 w-2/3'>
 
                     <div>
                     <img src={stage1} alt="camiseta1" className="w-full"/>
