@@ -1,4 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import stage1 from '../../public/diseño.png';
 
 function Modal({ isOpen, onClose }) {
@@ -50,15 +51,15 @@ function Modal({ isOpen, onClose }) {
                 ref={modalRef}
                 tabIndex={-1}
                 onKeyDown={handleKeyDown} 
-                className='grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-3 gap-8 w-2/3'>
+                className='grid grid-cols-1 ml-5 sm:grid-cols-1 lg:grid-cols-3 gap-12 w-2/3'>
 
-                    <div>
-                    <img src={stage1} alt="camiseta1" className="w-full"/>
-                    </div>
+                    <Link to="/stage1">
+                      <img src={stage1} alt="camiseta1" className="w-full"/>
+                    </Link>
 
-                    <div>
-                    <img src={stage1} alt="camiseta1" className="w-full"/>
-                    </div> 
+                    <Link>
+                      <img src={stage1} alt="camiseta1" className="w-full"/>
+                    </Link> 
                 </div> 
             </div>
         </div> 
