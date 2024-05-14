@@ -59,7 +59,7 @@ function App() {
       <aside className="sm:w-3/4 mx-auto pt-10">
         <h1 id="titulo" className="text-center text-5xl md:text-6xl p-8">STAGE 1</h1>
         <h1 id="titulo" className="text-center text-3xl md:text-4xl">MONEY GOD TEE</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3  gap-20 pt-10 pb-10 m-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 pt-10 pb-10 m-8">
             <div className="bg-neutral-100  rounded-2xl shadow-2xl p-4 hover:scale-110">
               <img src="/producto1.png" alt="camiseta1" className="w-full h-auto"/>
               <div className="mt-4">
