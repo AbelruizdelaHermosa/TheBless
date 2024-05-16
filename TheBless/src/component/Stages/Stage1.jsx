@@ -20,31 +20,40 @@ function StageOne () {
                     <img className='sm:w-4/5 mx-auto' src={logo} alt="logoThebless" />
             </div>
 
-            <div className='mx-auto pt-10'>
-                <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-1 p-20 m-8">
-                    <img src={prueba1} alt="prueba" />
-                </div>
+            <div className='conatiner mx-auto py-20 sm:w-4/6'>
+                    <iframe  className='mx-auto md:w-full md:h-screen'
+                    src="https://www.youtube.com/embed/K2NcGYajvY4?si=YvnDZ1iisrnXAvsW" 
+                    title="YouTube video player"  
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
 
 
-            <aside className="sm:w-1/4 mx-auto pt-10 h-[500px]">
-                <h1 id="titulo" className="text-center text-5xl md:text-6xl p-8">STAGE 1</h1>
+            <div className='pt-28'>
+                <h1 id="titulo" className="text-center text-5xl md:text-6xl p-2">STAGE 1</h1>
                 <h1 id="titulo" className="text-center text-3xl md:text-4xl">MONEY GOD TEE</h1>
-                <div className="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-20 pt-10 pb-10 m-8">
-                    <div className="bg-neutral-100  rounded-2xl shadow-2xl p-4 hover:scale-110">
-                        <img src={camiseta1} alt="camiseta1" className="w-full h-auto"/>
-                        <div className="mt-4">
+            </div>
+            
+
+            <aside className="w-11/12 mx-auto p-2">
+                <div className="flex flex-col mx-auto md:p-20 sm:p-8 m-8">
+                    <div className="md:flex sm:none bg-neutral-100 rounded-lg shadow-2xl mt-8 items-start">
+                        <img src={camiseta1} alt="camiseta1" className="md:w-2/6 sm:w-full p-6 rounded-xl"/>
+                        <div className="mx-auto p-8">
                             <h3 className="text-center text-lg text-gray-600">MONEY GOD TEE x BLACK</h3>
-                        </div>  
+                            <p className="text-gray-500 mt-2">Descripción o cualquier otro contenido</p>
+                        </div>
                     </div>
-                    <div className="bg-neutral-100 rounded-lg shadow-xl p-4 hover:scale-110">
-                        <img src={camiseta2} alt="camiseta1" className="w-full h-auto"/>
-                        <div className="mt-4">
+                    <div className="md:flex sm:none bg-neutral-100 rounded-lg shadow-2xl mt-8 items-start">
+                        <img src={camiseta2} alt="camiseta2" className="md:w-2/6 sm:w-full p-6 rounded-xl"/>
+                        <div className="mx-auto p-8">
                             <h3 className="text-center text-lg text-gray-600">MONEY GOD TEE x WHITE</h3>
-                        </div>  
+                            <p className="text-gray-500 mt-2">Descripción o cualquier otro contenido</p>
+                        </div>
                     </div>
                 </div>
             </aside>
+
 
             <Footer />
         </div>

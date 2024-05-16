@@ -4,7 +4,8 @@ export default {
     "../index.html",
     "./src/*.{js,ts,jsx,tsx}",
     "./src/**/*.{js,ts,jsx,tsx}",
-    "./src/componetes/*.{js,ts,jsx,tsx}",
+    "./src/componets/*.{js,ts,jsx,tsx}",
+    "./src/componets/**/*.{js,ts,jsx,tsx}",
   ],
   presets: [],
   darkMode: 'media', // or 'class'
