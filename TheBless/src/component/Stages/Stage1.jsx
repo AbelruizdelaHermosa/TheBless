@@ -20,8 +20,8 @@ function StageOne () {
                     <img className='sm:w-4/5 mx-auto' src={logo} alt="logoThebless" />
             </div>
 
-            <div className='conatiner mx-auto py-20 sm:w-4/6'>
-                    <iframe  className='mx-auto md:w-full md:h-screen'
+            <div className='conatiner mx-auto py-20 sm:w-5/6 lg:w-11/12'>
+                    <iframe  className='mx-auto sm:w-full sm:h-screen lg:w-5/6'
                     src="https://www.youtube.com/embed/K2NcGYajvY4?si=YvnDZ1iisrnXAvsW" 
                     title="YouTube video player"  
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
@@ -29,9 +29,9 @@ function StageOne () {
             </div>
 
 
-            <div className='pt-28'>
-                <h1 id="titulo" className="text-center text-5xl md:text-6xl p-2">STAGE 1</h1>
-                <h1 id="titulo" className="text-center text-3xl md:text-4xl">MONEY GOD TEE</h1>
+            <div className='pt-28 lg:pt-44'>
+                <h1 id="titulo" className="text-center text-4xl lg:text-6xl lg:p-4">STAGE 1</h1>
+                <h1 id="titulo" className="text-center text-2xl lg:text-4xl">MONEY GOD TEE</h1>
             </div>
             
 

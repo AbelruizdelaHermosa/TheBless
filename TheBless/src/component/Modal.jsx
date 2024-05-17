@@ -51,14 +51,14 @@ function Modal({ isOpen, onClose }) {
                 ref={modalRef}
                 tabIndex={-1}
                 onKeyDown={handleKeyDown} 
-                className='grid grid-cols-1 ml-5 sm:grid-cols-1 lg:grid-cols-3 gap-12 w-2/3'>
+                className='grid grid-cols-1 sm:m-16 lg:m-10 sm:grid-cols-1 lg:grid-cols-4 gap-8 w-4/6'>
 
                     <Link to="/stage1">
-                      <img src={stage1} alt="camiseta1" className="w-full"/>
+                      <img src={stage1} alt="stage1" className="w-full"/>
                     </Link>
 
                     <Link>
-                      <img src={stage1} alt="camiseta1" className="w-full"/>
+                      <img src={stage1} alt="stage1" className="w-full"/>
                     </Link> 
                 </div> 
             </div>
