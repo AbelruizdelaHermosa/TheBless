@@ -14,6 +14,10 @@ function Modal({ isOpen, onClose }) {
         // Habilitar el scroll de la página principal cuando el modal se cierra
         document.body.style.overflow = 'auto';
       }
+        // Habilitar el scroll cuandos se desmonta el componente
+      return () => {
+        document.body.style.overflow = 'auto';
+      }
     }, [isOpen]);
   
     const handleKeyDown = (event) => {
