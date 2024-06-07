@@ -56,24 +56,24 @@ function App() {
       <hr className="my-6 w-full md:w-5/6 border-gray-700 sm:mx-auto dark:border-gray-700 lg:mt-32" />
 
 
-      <aside className="sm:w-3/4 mx-auto pt-10">
+      <aside className="lg:w-3/4 w-10/12 mx-auto pt-10">
         <h1 id="titulo" className="text-center text-5xl md:text-6xl p-8">STAGE 1</h1>
         <h1 id="titulo" className="text-center text-3xl md:text-4xl">MONEY GOD TEE</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-20 pt-10 pb-10 m-8">
             <div className="bg-neutral-100  rounded-2xl shadow-2xl p-4 hover:scale-110">
-              <img src="/producto1.png" alt="camiseta1" className="w-full h-auto"/>
+              <img src="/producto1.png" alt="camiseta1" className="w-full h-auto rounded-sm"/>
               <div className="mt-4">
                 <h3 className="text-center text-lg text-gray-600">MONEY GOD TEE x BLACK</h3>
               </div>  
             </div>
             <div className="bg-neutral-100 rounded-lg shadow-xl p-4 hover:scale-110">
-              <img src="/producto2.png" alt="camiseta1" className="w-full h-auto"/>
+              <img src="/producto2.png" alt="camiseta1" className="w-full h-auto rounded-sm"/>
               <div className="mt-4">
                 <h3 className="text-center text-lg text-gray-600">MONEY GOD TEE x WHITE</h3>
               </div>  
             </div>
             <div className="bg-neutral-100 rounded-lg shadow-xl p-4 hover:scale-110">
-              <img src="/producto3.png" alt="camiseta1" className="w-full h-auto rounded-lg"/>
+              <img src="/producto3.png" alt="camiseta1" className="w-full h-auto rounded-sm"/>
               <div className="mt-4">
                 <h3 className="text-center text-lg text-gray-600">COMING SOON...</h3>
               </div>  
